@@ -23,8 +23,35 @@ git clone https://github.com/Agus29Agus/Pos-Apotek-Tax-Cost.git
 ```
 
 ### Download ZIP
+[Link](https://github.com/Agus29Agus/Pos-Apotek-Tax-Cost/archive/refs/heads/main.zip)
 
+### Tahap Setup Aplikasi
+```
+Jalankan Script pada Terminal
+composer install
+```
 
+```
+Copy file .env
+cp .env.example .env
+Config DB_DATABASE = DB_Name
+```
+
+```
+Generate Key
+php artisan key:generate
+```
+
+```
+Database Migration
+php artisan migrate --seed
+(Informasi Login ada di Database\Seeders\UserTableSeeder.php)
+```
+
+```
+Run Local Apache Server
+php artisan serve
+```
 
 ## License
 
