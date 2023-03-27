@@ -19,7 +19,7 @@ Aplikasi Point of Sales atau POS adalah sebuah aplikasi yang digunakan untuk men
 ## Tahap Instalasi
 #### Via GIT BASH
 ```
-git clone 
+git clone https://github.com/Agus29Agus/Pos-Apotek-Tax-Cost.git
 ```
 
 ### Download ZIP
